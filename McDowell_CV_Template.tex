@@ -1,0 +1,113 @@
+%% The MIT License (MIT)
+%%
+%% Copyright (c) 2015 Daniil Belyakov
+%%
+%% Permission is hereby granted, free of charge, to any person obtaining a copy
+%% of this software and associated documentation files (the "Software"), to deal
+%% in the Software without restriction, including without limitation the rights
+%% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%% copies of the Software, and to permit persons to whom the Software is
+%% furnished to do so, subject to the following conditions:
+%%
+%% The above copyright notice and this permission notice shall be included in all
+%% copies or substantial portions of the Software.
+%%
+%% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+%% SOFTWARE.
+
+% The font could be set to Windows-specific Calibri by using the 'calibri' option
+\documentclass[]{mcdowellcv}
+
+% For mathematical symbols
+\usepackage{amsmath}
+
+% For hyperlinks
+\usepackage{hyperref}
+
+% Set applicant's personal data for header
+\name{Gayle L. McDowell}
+\address{77 Bullard St \linebreak Sharon MA 02067}
+\contacts{(781) 428-5342 \linebreak jameskong098@gmail.com \linebreak \href{https://github.com/jameskong098}{github.com/jameskong098}}
+
+\begin{document}
+
+	% Print the header
+	\makeheader
+	
+	% Print the content
+	\begin{cvsection}{Employment}
+		\begin{cvsubsection}{App Developer & Tech Lead.}{Branda}{April 2022 – Present}
+			Branda Mobile App			
+			\begin{itemize}
+				\item Managed a team of 15+ student developers through assigning projects, reviewing PR code, and assisting in bugs.
+				\item Implemented chat bot on home page for easy information access and support
+				\item Wrote web scraping script for new vendor dining hours that updates the MongoDB database
+				\item Added new API routes in backend server for dining hours so that the frontend can display updated hours
+				\item Changed dark mode system based settings to app based settings giving the user the ability to choose their theme within the app
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{CS Instructor II}{Juni Learning}{May 2021 – August 2022}	
+			\begin{itemize}
+				\item Executed Python & Java lesson plans for students ages 8-16 while adapting to student needs and interests.
+				\item Communicated with parents on a regular basis and provided updates on student progress and results from learning assessments.
+				\item Maintained records for each student while covering multiple courses and skill levels
+			\end{itemize}
+		\end{cvsubsection}
+		
+	\end{cvsection}
+	
+	\begin{cvsection}{Education}
+		\begin{cvsubsection}{Waltham MA}{Brandeis University}{August 2020 – May 2024}
+			\begin{itemize}
+				\item B.S in Computer Science, May 2024. GPA: 3.522
+				\item Minor in Business
+				\item Undergraduate Coursework: Operating Systems, Data Structures and the Fundamentals of Computing, Advanced Programming Techniques in Java, Fundamentals of Software Engineering, Introduction to Problem Solving in Python, Linear Algebra, Discrete Structures, Techniques of Calculus, Introduction to Probability and Statistics, Software Entrepreneurship, Introduction to Microeconomics
+			\end{itemize}
+		\end{cvsubsection}
+
+		\begin{cvsubsection}{Sharon MA}{Sharon High School}{August 2016 – May 2020}
+			\begin{itemize}
+				\item Activities and societies: Captain of XC and T&F Teams,
+				\item 5 AP Classes, 6 Honors Classes,
+				\item Tri-M Music Honor Society Executive Member (Band Chair),
+				\item NEC MYWE Band Clarinetist
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Technical Experience}
+		\begin{cvsubsection}{Projects}{}{}
+			\begin{itemize}
+				\item \textbf{Portfolio Website} (June 2022). A website made for my friend’s portfolio. Website contains his films, animations, reviews, and posts on it. Has an admin login for changing descriptions, uploading new videos or posts. Javascript, Node.js, Express.js, MongoDB, Heroku
+				\item \textbf{Music Player GUI} (January – February 2022). A music player with basic modern media player functions, an auto-updating file management system, multiple preventative tests for invalid user input/action. Java, Swing API
+				\item \textbf{Data Analysis on US National Hate Crime} (March 2022). Data set analysis on the US National Crime Data set from 1991 to 2020. Python, Numpy, Pandas
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Additional Experience and Awards}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item \textbf{Dean's List (2020, 2021, 2022):} Maintaining at least a 3.5 GPA for a full academic period.
+				\item \textbf{DeisHacks 2022 Winner (Hidden Gem Award):} Awarded the "Hidden Gem Award" for creating a satisfaction analyzer, program that detects how well a person is doing from words/phrases.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Languages and Technologies}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item Java, Python, Javascript, Node.js, Express.js, React Native, HTML, CSS, MongoDB
+				\item VSCode, Eclipse, GitHub, Expo CLI, Heroku, Google Workspace
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+\end{document}
+
